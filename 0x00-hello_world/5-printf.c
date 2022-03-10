@@ -1,13 +1,7 @@
 #include <stdio.h>
 
-/**
- * This is the first 
- * printf programm
- */
+/*This program prints a message */
 int main(void)
-/**
- * Printf function
- */
 {
 	printf("with proper grammar, but the outcome is a piece of art,\n");
 	return (0);
