@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -x objective-c-cpp-output -S $CFILE 
+gcc -c $CFILE 
