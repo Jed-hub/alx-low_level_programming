@@ -12,7 +12,7 @@ int main(void)
 	int largest;
 
 	a = -98;
-	b = -98;
+	b = -8;
 	c = -98;
 
 	largest = largest_number(a, b, c);
