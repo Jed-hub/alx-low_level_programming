@@ -2,9 +2,7 @@
 
 /**
  * print_times_table - Prints times table
- *
  * @n: times table to use
- *
  * Returns: Void.
  */
 void print_times_table(int n)
@@ -13,7 +11,6 @@ void print_times_table(int n)
 
 	if (n < 0 || n > 15)
 		return;
-
 	while (a <= n)
 	{
 		for (b = 0; b <= n; b++)
