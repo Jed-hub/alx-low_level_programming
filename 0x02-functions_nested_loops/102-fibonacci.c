@@ -14,7 +14,6 @@ int main(void)
 	f1 = 1;
 	f2 = 2;
 	n = 50;
-	
 	for (i = 0; i < n; i++)
 	{
 		if (i == 49)
