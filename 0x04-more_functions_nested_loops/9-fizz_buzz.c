@@ -10,9 +10,9 @@
  */
 int main(void)
 {
-	int n;
+	int n = 1;
 
-	for (n = 1; n <= 100; n++)
+	while (n <= 100)
 	{
 		if (((n % 3) == 0) && ((n % 5) == 0))
 		{
@@ -34,6 +34,8 @@ int main(void)
 		{
 			putchar(' ');
 		}
+
+		n++;
 	}
 	putchar('\n');
 	return (0);
