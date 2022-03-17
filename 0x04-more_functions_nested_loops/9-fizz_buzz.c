@@ -30,7 +30,11 @@ int main(void)
 		{
 			printf("%d ", n);
 		}
+		if (n != 100)
+		{
+			putchar(32);
+		}
 	}
-	printf("\n");
+	putchar('\n');
 	return (0);
 }
