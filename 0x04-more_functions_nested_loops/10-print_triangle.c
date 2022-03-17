@@ -18,6 +18,12 @@ void print_triangle(int size)
 			_putchar(' ');
 			m++;
 		}
+		m = 0;
+		while (m < n)
+		{
+			_putchar(35);
+			m++;
+		}
 		_putchar('\n');
 		n++;
 	}
