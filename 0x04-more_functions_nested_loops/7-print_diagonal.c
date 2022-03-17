@@ -18,12 +18,6 @@ void print_diagonal(int n)
 	{
 		for (k = 1; k <= n; k++)
 		{
-		/*if (n <= 0)
-		{
-			_putchar('\n');
-		}
-		else
-		{*/
 			for (l = 1; l < k; l++)
 			{
 				_putchar(m);
