@@ -15,6 +15,11 @@ char *_strncat(char *dest, char *src, int n)
 
 	while (*src)
 	{
+		srclen++;
+		src++;
+	}
+	while (*dest)
+	{
 		dest++;
 	}
 	if (n > srclen)
