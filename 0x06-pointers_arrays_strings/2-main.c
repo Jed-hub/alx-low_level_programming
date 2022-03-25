@@ -9,7 +9,7 @@
 int main(void)
 {
 	char s1[98];
-	chat *ptr;
+	char *ptr;
 	int i;
 
 	for (i = 0; i < 98 - 1; i++)
