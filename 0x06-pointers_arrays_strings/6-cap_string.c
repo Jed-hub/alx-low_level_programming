@@ -24,3 +24,25 @@ char *cap_string(char *s)
 	}
 	return (s);
 }
+
+/**
+ * check_seperators - Seperators of words: space, tabulation, new line...
+ * @c: input character
+ *
+ * Return: 1 if separator, 0 otherwise
+ */
+int check_seperators(char c)
+{
+	int i = 0;
+	char seperators[13] = {' ', '\t', '\n', ',', ';', '.', '!', '?',
+		'"', '(', ')', '{', '}'};
+
+	for (; i < 13; i++)
+	{
+		if (c == seperators[i])
+		{
+			return (1);
+		}
+	}
+	return (0);
+}
