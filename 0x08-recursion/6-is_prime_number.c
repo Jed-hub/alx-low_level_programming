@@ -14,15 +14,6 @@ int check(int g, int c)
 	if (c < 0)
 	{
 		return (0);
-		/*if (g * g * (-1) == c)
-		{
-			return (0);
-		}
-		if (g * g * (-1) > c)
-		{
-			return (1);
-		}
-		return (check(g + 1, c));*/
 	}
 	else
 	{
