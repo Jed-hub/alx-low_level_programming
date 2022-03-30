@@ -13,7 +13,8 @@ int check(int g, int c)
 {
 	if (c < 0)
 	{
-		if (g * g * (-1) == c)
+		return (0);
+		/*if (g * g * (-1) == c)
 		{
 			return (0);
 		}
@@ -21,7 +22,7 @@ int check(int g, int c)
 		{
 			return (1);
 		}
-		return (check(g + 1, c));
+		return (check(g + 1, c));*/
 	}
 	else
 	{
