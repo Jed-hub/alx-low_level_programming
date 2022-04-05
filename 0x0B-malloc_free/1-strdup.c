@@ -22,7 +22,10 @@ char *_strdup(char *str)
 	{
 		return (NULL);
 	}
-
+	 if (c == 0)
+	{
+		return (NULL);
+	}
 	while (str[m] != '\0')
 	{
 		c[n] = str[m];
